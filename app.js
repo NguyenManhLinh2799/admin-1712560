@@ -16,7 +16,7 @@ var app = express();
 // router files =================================================
 var indexRouter = require('./routes/index');
 var adminRouter = require('./routes/admin');
-var Database = require('./db/database');
+var Database = require('./DB/database');
 
 // Passport config ==============================================
 require('./config/passport')(passport);
